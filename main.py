@@ -1355,7 +1355,7 @@ def build_manual_uri(
     network = normalize_network(link.get("network"))
     security = normalize_security(link.get("security"))
 
-    remark = "Negarin-VPN 🇩🇪"(link, uid)
+    remark = "Negarin-VPN 🇩🇪"
     label = quote(remark, safe="")
 
     fp = (link.get("fingerprint") or DEFAULT_FINGERPRINT).strip().lower()
